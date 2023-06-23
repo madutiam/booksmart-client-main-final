@@ -12,6 +12,7 @@ import { useForm } from "react-hook-form"
 import useGetUser from "@hooks/useGetUser"
 import useUserStore from "@stores/UseUserStore"
 import { AxiosError } from "axios"
+import { LogoLogin } from "@assets/index"
 
 const Login = () => {
   const nav = useNavigate()
@@ -54,6 +55,7 @@ const Login = () => {
   return (
     <Container>
       <Background src={LoginPic} />
+      <img src={LogoLogin} alt="livro" />
       <Title style={{ textAlign: "center" }}>Faça seu login!</Title>
       <Form onSubmit={handleSubmit(handleLoginUser)}>
         <Label>
