@@ -25,7 +25,7 @@ const Header = () => {
       <Link to={firstPage}>
         <LogoImage src={Logo} alt="" />
       </Link>
-      <Search />
+      {/* <Search /> */}
       <Nav>
       <Link to={'/meeting'}>
           <Button>Encontros</Button>

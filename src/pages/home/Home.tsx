@@ -125,7 +125,7 @@ const CardsContainer = () => {
       </Buttons>
       <Content ref={ref}>
         <CardItem>Obtém um livro totalmente gratuito!</CardItem>
-        <CardItem>interage com novas pessoas!</CardItem>
+        <CardItem>Interagir com novas pessoas!</CardItem>
         <CardItem>Pode enriquecer seu conhecimento!</CardItem>
       </Content>
       <Active>
