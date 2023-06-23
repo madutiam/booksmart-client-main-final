@@ -1,0 +1,3 @@
+interface IToken {
+  token: string
+}

@@ -1,0 +1,26 @@
+.animeRight {
+    opacity: 0;
+    transform: translateX(+600px);
+    animation: animeRight .8s forwards;
+}
+
+.animeLeft {
+    opacity: 1;
+    transform: translateX(initial);
+    animation: animeLeft .8s forwards;
+}
+
+@keyframes animeLeft {
+
+    to {
+        opacity: 0;
+      transform: translateX(-100%);
+    }
+}
+
+@keyframes animeRight {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
