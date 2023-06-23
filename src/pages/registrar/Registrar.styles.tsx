@@ -1,16 +1,17 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  background-color: #fff;
+  background-color: #a5714c;
+  color: #fff;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: auto;
-  margin-top: 4rem;
-  max-width: 30rem;
-  max-height: 40rem;
+  margin-top: 0;
+  max-width: 40rem;
+  max-height: 80rem;
   display: grid;
   gap: 1rem;
-  border: 2px solid #f5ab5c;
+  border: 2px solid #69140e;
 `
 
 export const Background = styled.img`
@@ -35,7 +36,8 @@ export const Error = styled.span`
 
 export const ButtonGroup = styled.div`
   display: flex;
-  justify-self: end;
+  margin-top: 1.5rem;
+  justify-self: center;
   gap: 1rem;
   align-items: end;
 `

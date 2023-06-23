@@ -37,9 +37,11 @@ export const Button = styled.button<ButtonProps>`
         borderRadius: "1rem"
       },
       outlined: {
-        backgroundColor: "transparent",
-        color: "#f5ab5c",
-        border: "2px solid #f5ab5c",
+        boxShadow: '0px 4px 4px 0px #00000040 inset',
+        backgroundColor: '#91543d',
+        color: "white",
+        fontSize: '18px',
+        border: 'none',
         "&:hover": {
           backgroundColor: "transparent"
         }
