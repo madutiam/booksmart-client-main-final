@@ -85,8 +85,7 @@ const Faq = () => {
       const bNumber = Number(target.classList[0]) 
 
       setBIndex(bNumber)
-      console.log(bNumber)
-      console.log(bIndex)
+
     }
   }
 
@@ -272,18 +271,7 @@ React.useEffect(() => {
 
     </FaqPage>
 
-    {/* <HelperContainer>
-         <HelpContainer>
-            <h1>Precisando de ajuda?</h1>
-            <InputDiv>
-                <Input placeholder="O que está procurando?" />
-            </InputDiv>
-            <p>Digite sua dúvida e veremos se podemos ajudar.</p>
-         </HelpContainer>
-         <AltHelpContainer>
-
-         </AltHelpContainer>
-    </HelperContainer> */}
+ 
     </>
   )
 }

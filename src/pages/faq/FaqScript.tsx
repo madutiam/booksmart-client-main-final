@@ -23,6 +23,10 @@ export const faqTrocas = [
         q: 'Como funciona o processo de troca de livros?',
         a: 'O usuário deve entrar em contato com o perfil que disponibiliza o livro desejado e propor uma troca, caso ambas as partes cheguem a um acordo, a troca deverá ser realizada na escola.',
     },
+    {
+        q: 'Como posso entrar em contato com outro usuário para propor uma troca?',
+        a: 'Esta funcionalidade está disponível na aba "ENCONTROS", no cabeçalho da página.',
+    },
 ]
 
 
