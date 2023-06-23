@@ -20,6 +20,11 @@ export const Prase = styled.div`
   p {
     justify-self: end;
   }
+
+  @media (max-width: 570px ) {
+    position: relative;
+    bottom: 2rem;
+  }
 `
 
 export const PraseText = styled(Title)`
@@ -90,6 +95,7 @@ export const CardItem = styled.li`
   color: #fff;
   border-radius: 0.5rem;
   font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
   display: flex;
   height: 10rem;
   scale: 0.7;
@@ -141,7 +147,7 @@ export const Background = styled.span`
 
 export const Final = styled.div`
   display: flex;
-  row-gap: 5rem;
+  row-gap: 1rem;
   justify-content: space-between;
   justify-items: center;
   flex-wrap: wrap;
@@ -155,5 +161,13 @@ export const Final = styled.div`
 
   h2 {
     font-size: 2rem;
+  }
+
+  @media (max-width: 1024px) {
+    
+    
+    flex-direction: column;
+    row-gap: 4rem;
+    flex-grow: 0;
   }
 `

@@ -1,4 +1,5 @@
 import React from "react"
+import './homeSheet.css'
 import {
   Active,
   Background,
@@ -24,6 +25,8 @@ import useUserStore from "@stores/UseUserStore"
 import { Navigate } from "react-router"
 import { Link } from "react-router-dom"
 
+
+
 const Home = () => {
   const { isLoggedIn } = useUserStore()
   const { data: bookResponse } = useQuery("books", {
@@ -33,6 +36,7 @@ const Home = () => {
   if (isLoggedIn) return <Navigate to="/dashboard" />
   return (
     <Container>
+      
       <Image src={HomePic} alt="" />
       <Prase>
         <PraseText>
@@ -47,6 +51,7 @@ const Home = () => {
       </BarSection>
 
       <Section>
+    
         <Title as="h2">Motivos para você trocar livros</Title>
         <CardsContainer />
       </Section>
@@ -119,9 +124,9 @@ const CardsContainer = () => {
         <button data-direction="next">proximo</button>
       </Buttons>
       <Content ref={ref}>
-        <CardItem>Você obtém um livro totalmente gratuito!</CardItem>
-        <CardItem>Você interage com novas pessoas!</CardItem>
-        <CardItem>Você pode enriquecer seu conhecimento!</CardItem>
+        <CardItem>Obtém um livro totalmente gratuito!</CardItem>
+        <CardItem>interage com novas pessoas!</CardItem>
+        <CardItem>Pode enriquecer seu conhecimento!</CardItem>
       </Content>
       <Active>
         {items?.map((item, index) => (
